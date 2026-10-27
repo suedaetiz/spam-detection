@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Veri (kaynaktan indiriliyor)
+data/raw/*
+!data/raw/.gitkeep
+
+# Eğitilmiş modeller (büyük dosyalar)
+models/
+*.pt
+*.pth
+*.h5
+*.keras
+*.bin
+*.safetensors
+
+# Hugging Face / eğitim çıktıları
+outputs/
+checkpoints/
+runs/
+wandb/
+
+# İşletim sistemi
+.DS_Store
+Thumbs.db
